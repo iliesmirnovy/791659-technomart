@@ -1,16 +1,16 @@
 # Личный проект «Техномарт»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/21/user/791659).
-* Наставник: `Неизвестно`.
+* Наставник:Дмитрий Могиль.
 
----
+
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
-### Памятка
+### Памяткаhttps://github.com/alexkrim13/791659-technomart.githttps://github.com/alexkrim13/791659-technomart.git
 
 #### 1. Зарегистрируйтесь на Гитхабе
 
