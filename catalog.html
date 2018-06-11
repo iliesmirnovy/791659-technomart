@@ -7,7 +7,9 @@
   <body>   
 	<header>
 	<img src="" alt="логотип">
+	<form action="http://echo.htmlacademy.ru" method="post" name="search">
 	<input type="search" class="search">
+	</form>
 	<h1>ТЕХНОМАРТ</h1>
 	<ul class="topmenu">
 	<li>Поиск</li>
@@ -22,7 +24,9 @@
 </div>
 	
 	<div>
+	<form action="http://echo.htmlacademy.ru" type="text" method="post">
 	<input type="text" name="login">
+	</form>
 	<ul>
 	<li><a href="#">Мои заказы</a></li>
 	<li> <a href="#">Личный кабинет</a></li>
@@ -64,19 +68,20 @@
 </div>
 <div>
 <ul>
-<li><img src="#" alt="Перфоратор BOSH BFG3000 "> 15500 </li>
-<li><img src="#" alt="Перфоратор BOSH BFG2000 "> 12500 </li>
+<li><img src="img/perf2.png" alt="Перфоратор BOSH BFG3000 "> 15500 </li>
+<li><img src="img/perf1.png" alt="Перфоратор BOSH BFG2000 "> 12500 </li>
 <li><img src="#" alt="Перфоратор BOSH BFG6000 "> 25500 </li>
-<li><img src="#" alt="Перфоратор BOSH BFG3000 "> 15500 </li>
-<li><img src="#" alt="Перфоратор BOSH BFG2000 "> 12500 </li>
-<li><img src="#" alt="Перфоратор BOSH BFG6000 "> 25500</li>
-<li><img src="#" alt="Перфоратор BOSH BFG3000 "> 15500</li>
-<li><img src="#" alt="Перфоратор BOSH BFG2000 "> 12500</li>
-<li><img src="#" alt="Перфоратор BOSH BFG6000 "> 25500</li>
+<li><img src="img/perf2.png" alt="Перфоратор BOSH BFG3000 "> 15500 </li>
+<li><img src="img/perf1.png" alt="Перфоратор BOSH BFG2000 "> 12500 </li>
+<li><img src="img/perf2.png" alt="Перфоратор BOSH BFG6000 "> 25500</li>
+<li><img src="img/perf2.png" alt="Перфоратор BOSH BFG3000 "> 15500</li>
+<li><img src="img/perf1.png" alt="Перфоратор BOSH BFG2000 "> 12500</li>
+<li><img src="img/perf2.png" alt="Перфоратор BOSH BFG6000 "> 25500</li>
 </ul>
 </div>
 <h3>Производители</h3>
- <form action="#" method="post">
+ <form action="http://echo.htmlacademy.ru" method="post" name="manufaktured">
+ <fieldset>
  <input type="checkbox" name="bosh" id="bosh-field" checked>
  <label for="bosh-field">BOSH</label>
  <input type="checkbox" name="interskol" id="interskol-field">
@@ -87,15 +92,16 @@
  <label for="dewalt-field">DEWALT</label>
  <input type="checkbox" name="hitachi" id="hitachi-field">
  <label for="hitachi-field">HITACHI</label>
- </form>
+ </fieldset>
 <h3>Питание</h3>
-<form action="#" method="post">
+<fieldset>
 <input type="checkbox" name="rechargeable" id="rechargeable-field" checked>
  <label for="rechargeable-field">Аккумуляторные</label>
 <input type="checkbox" name="network" id="network-field">
 <label for="network-field">Сетевые</label>
 
 <input type="submit" value="Показать">
+</fieldset>
 </form>
 
 
